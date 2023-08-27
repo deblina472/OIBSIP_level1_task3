@@ -44,14 +44,6 @@ header h3 {
   font-weight: 800;
 }
 
-/*header p {
-  color: white;
-  font-size: 90px;
-  font-weight: 400;
-  position: relative; 
-}
-*/
-
 .container {
   display: grid;
   position: relative; 
@@ -144,12 +136,3 @@ input {
   font-weight: bold;
 }
 
-
-/*#footer {
-  position: sticky;
-  color: white;
-  padding: 10px;
-  bottom: 100;
-  width: 100%;
-  font-size: 25px;
-}*/
