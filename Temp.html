@@ -22,7 +22,8 @@
         </header>
         <section class="container">
         <div class="wrapper">
-            <form onsubmit="calcTemp();return false;">
+          
+            <form onsubmit="ct();return false;">
                 <label for="temp" class="pr-2">Convert from: </label>
                 <input type="number" name="temp" id="temp" step="any" value="00.00">    
                 <select id="givenscale" name="givenscale">
@@ -39,7 +40,7 @@
                     <option value="F">Fahrenheit</option>
                     <option value="K">Kelvin</option>
                 </select>
-                <hr />
+                <hr>
                 <div class="m-2">
                     <input type="submit" name="temp" id="submitbtn" class="btn btn-outline-warning " value="Convert">
                     <input type="reset" name="temp" id="submitbtn" class="btn btn-outline-warning " value="Reset">
