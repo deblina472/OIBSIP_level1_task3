@@ -1,4 +1,4 @@
-const calcTemp = () => {
+const ct = () => {
     const numberTemp = document.getElementById('temp').value;
     
     const givenScale = document.getElementById('givenscale').value;
@@ -19,7 +19,6 @@ const calcTemp = () => {
         result = numberTemp + tempSelected;
     }
 
-
     else if (givenScale == 'C' && tempSelected == 'K') {
         result = (parseFloat(numberTemp) + 273.15) + ' K';
     } 
@@ -27,7 +26,6 @@ const calcTemp = () => {
         result = (parseFloat(numberTemp) - 273.15) + ' °C';
     }
 
-    
     else if (givenScale == 'C' && tempSelected == 'F') {
         result = (9 * parseFloat(numberTemp) / 5.0 + 32.0) + ' °F';
     } 
