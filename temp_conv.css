@@ -7,10 +7,12 @@
 }
 
 .bg-container {
-  background-color: orange;
+  background-image: url("p3.jpg");
+  background-repeat: no-repeat;
   text-align: center;
   height: 100vh;
 }
+
 .wrapper{
   width: 500px;
   margin: 8% auto;
